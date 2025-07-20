@@ -1,0 +1,44 @@
+Authors: Immanuel Gayle
+Date Created: July 18, 2025
+Course: ITT103
+GitHub Public URL to Code: https://github.com/igayle/HOSPITAL-MANAGEMENT-SYSTEM-Python-Program
+
+------------------------------------------------------------
+HOSPITAL MANAGEMENT SYSTEM - README
+------------------------------------------------------------
+
+PURPOSE OF THE PROGRAM:
+This Python-based Hospital Management System is a simple, beginner-friendly project built for educational use. It simulates core administrative functions of a hospital, including:
+- Patient registration and profile viewing
+- Doctor registration and schedule management
+- Booking, viewing, and cancelling appointments
+- Generating formatted bills for completed appointments
+
+The program is written using basic object-oriented programming, functions, exception handling, and CLI (command-line interface) interaction.
+
+------------------------------------------------------------
+HOW TO RUN THE PROGRAM:
+1. Make sure Python is installed on your system.
+2. Open your terminal or command prompt.
+3. Navigate to the folder containing the code file.
+4. Run the file by typing:
+   python hospital_management.py
+5. Use the menu options to interact with the system.
+
+------------------------------------------------------------
+REQUIRED MODIFICATIONS (if adapting this code):
+- Add file storage (CSV or database) if you want the data to persist between sessions.
+- Add login authentication for admin/staff users.
+- Convert CLI to a graphical user interface (GUI) using Tkinter or PyQt.
+- Implement time validation (AM/PM format checking).
+
+------------------------------------------------------------
+ASSUMPTIONS & LIMITATIONS:
+- Data is stored in memory only; once the program exits, all data is lost.
+- Doctors’ available times must be entered manually and exactly (e.g., “10:00 AM”).
+- Dates must be entered in the format YYYY-MM-DD.
+- No file saving or external modules (e.g., pandas, sqlite) are used.
+- Only one appointment can be booked for a doctor at a given time.
+
+------------------------------------------------------------
+END OF README
